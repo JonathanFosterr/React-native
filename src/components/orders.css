@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+}
+.order-page {
+  width:100%;
+  height:auto;
+}
+.previous {
+  width: 40px;
+  height: 40px;
+  top: 45px;
+  left: 24px;
+  background: #f8f9fb;
+  border-radius: 30px;
+  display: flex;
+  gap: 20px;
+}
+.title {
+  margin-left: 20px;
+font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e222b;
+  margin-top: 10px;
+}
+.CartTitle {
+  width: 143px;
+  height: 24px;
+  top: 53px;
+  left: 85px;
+  display: flex;
+  gap: 2px;
+}
+.imgcust {
+
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.CartTitle {
+  width: 204px;
+  height: 40px;
+  top: 45px;
+  left: 24px;
+}
+.order-header {
+  background-color: #ffffff;
+  width: 376px;
+  height: 252px;
+  flex-shrink: 0;
+}
+.counterorder{
+    width: 359px;
+height: 266px;
+top: 584px;
+left: 8px;
+border-radius: 30px;
+
+}
+.counterDiv{
+ 
+    width: 40px;
+    height: 40px;
+   padding-right: 10px;
+    background: #f8f9fb;
+    border-radius: 30px;
+  
+
+}
+.count{
+font-family: 'Manrope', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.minus {
+
+margin-top: 11px;
+  margin-left: 10px;
+
+
+}
+.plus {
+
+margin-top: 11px;
+  margin-left: 10px;
+
+
+}
+.productName {
+  color: #1E222B;
+
+font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.editOrder{
+  margin-right: 20px;
+    color: #2A4BA0;
+  font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: right;
+}
+.finalOrderCart{
+  margin-top: 50px;
+  align-items: center;
+  width: 359px;
+  height: 255px;
+  border: none;
+  border-radius: 30px;
+background: #F8F9FB;
+  margin-left: auto;
+  margin-right: auto;
+}
+.totalTest{
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #616A7D;
+}
+.totalPrice{
+font-family: Manrope;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+color: #1E222B;
+}
+.addCartBtn{
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 56px;
+  border-radius: 20px;
+  background: #2A4BA0;
+font-family: 'Manrope', sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+
+}
+
+.order-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ant-row.css-dev-only-do-not-override-p7e5j5{
+  padding-bottom: 15px;
+    border-bottom: 0.5px solid #EBEBFB;
+    margin-bottom: 20px;
+}
+.finalOrderCart .ant-row.css-dev-only-do-not-override-p7e5j5{
+  padding-bottom: 0px !important;
+  margin-bottom: 3px !important;
+  border: none !important;
+}
